@@ -1,0 +1,155 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  
+.owl-nav {
+    display: none;
+}
+.pricing_table_single {
+    margin-bottom: 30px;
+}
+.clients .row .col {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    text-align: center;
+}
+.subscribe_inner input[type="email"] {
+    margin: 0 0 20px;
+    width: 100%;
+}
+.single_blog_post {
+    margin-bottom: 30px;
+}
+.footer .col-md-4 {
+    margin-bottom: 30px;
+}
+.about_widget > h3 {
+    text-align: center;
+}
+.footer .section_head_devider {
+    margin: 10px auto 20px;
+}
+.about_widget > p {
+    text-align: center;
+}
+.social_links {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.single_count {
+    margin-bottom: 50px;
+}
+.single_count .section_head_devider {
+    margin: 10px auto;
+}
+.section_head > h2 {
+    display: block;
+    text-align: center;
+}
+.about .section_head_devider {
+    margin: 10px auto 20px;
+}
+.single_service_head {
+    text-align: center;
+}
+.services_head_devider {
+    margin: 20px auto;
+}
+.single_service > p {
+    text-align: center;
+}
+.services .col-md-4 {
+    margin-bottom: 20px;
+}
+.single_feature {
+    margin-bottom: 20px;
+    text-align: center;
+}
+.section_content {
+    margin-bottom: 30px;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  
+  
+  
+.section_head_devider {
+    margin: 35px auto;
+}
+.section_head > h2 {
+    display: block;
+    text-align: center;
+}
+.section_content {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.single_feature {
+    margin-bottom: 40px;
+}
+.single_service_head {
+    text-align: center;
+}
+.single_service > p {
+    text-align: center;
+}
+.pricing_table_single {
+    margin-bottom: 50px;
+}
+.subscribe_inner input {
+    margin-bottom: 30px;
+    width: 100%;
+}
+.single_blog_post {
+    margin-bottom: 30px;
+}
+.footer_form > input {
+}
+.footer_form > input[type="text"] {
+    margin-bottom: 4%;
+    width: 100%;
+}
+.footer_form > input[type="phone"] {
+    width: 100%;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  
+.pricing_features li i {
+    margin-right: 10px;
+}
+.pricing_features li {
+    font-size: 13px;
+}
+.pricing_body {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.subscribe_inner input {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .slicknav_menu{
+    display: none;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .slicknav_menu{
+    display: none;
+  }
+}
